@@ -1,0 +1,139 @@
+:root {
+    --text-color-primary: #ff5a79;
+    --text-color-secondary: #d6dee2;
+    --button-color: #ff5a79;
+    --background-color: #1a1a1a;
+    --input-background: #2b2b2b;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+    font-family: "Playwrite GB S", cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid var(--text-color-secondary);
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#question {
+    width: 10vh;
+    margin-left: 5px;
+}
+
+#unfollow-me {
+    color: var(--text-color-primary);
+}
+
+#me {
+    color: var(--text-color-secondary);
+}
+
+.input-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1rem;
+    border: 1px solid var(--text-color-secondary);
+    border-radius: 5px;
+    background-color: var(--input-background);
+    color: var(--text-color-secondary);
+    text-align: center;
+}
+
+.back-button {
+    width: 22vw;
+    max-width: 200px;
+    height: 50px;
+    border: 2px solid var(--text-color-secondary);
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--text-color-secondary);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.back-button:active {
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+
+.listAll {
+    width: 22vw;
+    max-width: 200px;
+    height: 50px;
+    border: 2px solid var(--text-color-secondary);
+    border-radius: 10px;
+    background-color: var(--button-color);
+    color: var(--text-color-secondary);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.listAll:active {
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.followers-list {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 100%; 
+}
+
+.followers-list li {
+    background: none; 
+    padding: 20px; 
+    margin: 5px 0; 
+    color: var(--text-color-secondary); 
+    font-size: 1rem; 
+    cursor: default; 
+    transition: background 0.3s; 
+}
+
+.followers-list li:hover {
+    background: rgba(255, 90, 121, 0.1); 
+}
+
