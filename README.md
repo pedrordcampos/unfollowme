@@ -53,10 +53,10 @@ git push origin feature/nome-da-sua-feature
 ```
 Abra um Pull Request.
 
-Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
 
-Dúvidas? Entre em contato
+## Dúvidas? Entre em contato
 
 Pedro Ricardo de Campos - Whatspp (15) 99752-3275
 E-mail: pedro.rdcampos@hotmail.com
