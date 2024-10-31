@@ -2,6 +2,9 @@
 
 Um aplicativo simples para ajudar usuários do GitHub a gerenciar suas conexões de seguidores. O objetivo é visualizar quem você está seguindo que não te segue de volta e vice-versa.
 
+### Como visualizar?
+[Clique aqui](https://pedrordcampos.github.io/unfollowme/) e veja esse projeto.
+
 ## Funcionalidades
 
 - Listar todos os seguidores de um usuário do GitHub.
