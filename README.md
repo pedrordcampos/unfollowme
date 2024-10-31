@@ -39,9 +39,18 @@ Fazer pull requests com novas funcionalidades
 Para contribuir, siga estas etapas:
 
 Faça um fork do repositório.
-Crie uma nova branch (git checkout -b feature/nome-da-sua-feature).
-Faça suas alterações e commit (git commit -m 'Adiciona uma nova feature').
-Faça push para a branch (git push origin feature/nome-da-sua-feature).
+Crie uma nova branch 
+```bash
+git checkout -b feature/nome-da-sua-feature
+```
+Faça suas alterações e commit
+```bash
+git commit -m 'Adiciona uma nova feature'
+```
+Faça push para a branch
+```bash
+git push origin feature/nome-da-sua-feature
+```
 Abra um Pull Request.
 
 Licença
