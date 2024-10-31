@@ -30,7 +30,7 @@ Um aplicativo simples para ajudar usuários do GitHub a gerenciar suas conexões
 
 4. Navegue para a página de seguidores para ver quem não está te seguindo de volta ou quem você não está seguindo de volta.
 
-##Contribuição
+## Contribuição
 Sinta-se à vontade para contribuir com este projeto! Você pode:
 
 Relatar bugs
