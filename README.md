@@ -24,7 +24,7 @@ Um aplicativo simples para ajudar usuários do GitHub a gerenciar suas conexões
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu_usuario/unfollow.me.git
+   git clone https://github.com/pedrordcampos/unfollowme.git
    cd unfollow.me
     `````
 2. Abra o arquivo index.html em seu navegador.
