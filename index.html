@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- css -->
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
@@ -22,11 +20,16 @@
         </header>
 
         <section class="input-section">
-            <label for="username">Your username on GitHub:</label>
+            <label for="username">Your GitHub username:</label>
             <input type="text" id="username" placeholder="Enter your username">
+
+            <label for="token">Enter your GitHub token:</label>
+            <input type="text" id="token" placeholder="Enter your GitHub token">
         </section>
 
         <button class="listAll">List All</button>
+
+        <div id="error-message" class="error-message"></div>
     </div>
     <script src="assets/script/app.js"></script>
 </body>
